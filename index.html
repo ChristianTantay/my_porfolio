@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data</title>
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Boxicons CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="Personal Data">
+    <meta property="og:description" content="Description of your personal data">
+    <meta property="og:image" content="path_to_your_logo_image.jpg">
+    <meta property="og:url" content="your_portfolio_url">
+</head>
+<body>
+	<!-- Header Design -->
+    <header>
+        <a href="#" class="logo">My<span>Portfoli</span>o.</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects and Certificates</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+	<!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>Christan Tantay</h1>
+            <h3>Web<span> Designer.</span></h3>
+            <p>Starting Web Developer with a passion for customizing <br>a variety of programs that other programmers build.</p>
+            <div class="button">
+                <input class="btn" type="button" value="More about" onclick="openPopup()">
+            </div>
+        </div>
+    </section>
+	<div id="dialog" class="dialog">
+		<p>I like experimenting on other programmers codes!</p>
+		<button onclick="closePopup()">close</button>
+	</div>	
+
+	<!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about.png" alt="About Image">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Passionate Programmer and Creative Designer!</h4>
+            <p>Greetings! I'm Christian L. Tantay, and I'm fueled by a profound passion for IT. Ever since my first encounter with computers, I've been captivated by the power of turning ideas into digital realities. My ultimate ambition is to contribute my skills to a pioneering company and eventually establish my own creative workspace. In addition to my IT pursuits, I have a deep-seated interest in graphic design and video editing. The ability to craft visually compelling graphics and engaging videos is a creative avenue I find incredibly fulfilling. I'm also fascinated by Artificial Intelligence (AI), particularly its applications in AI simulation, natural selection, and AI evolution, as they reveal the remarkable progress and cognitive patterns of AI.</p>
+            <a class="btn" href="Resume (TANTAY).pdf" download="Resume (TANTAY).pdf">Download Resume</a>
+        </div>
+    </section>
+    
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="main-text">
+            <p>Schools I came into</p>
+            <h2><span>My</span> Education</h2>
+        </div>
+
+        <div class="education_container">
+			<div class="education_content">
+				<div>
+					<h3 class="education_year"> 2020-2024</h3>
+					<span class="education_university">
+					Year Graduated</span>
+				</div>
+				
+				<div class="education_time">
+					<span class="education_rounder"></span>
+					<span class="education_line"></span>
+				</div>
+				
+				<div>
+					<h3 class="education_race">STI College Global City</h3>
+					<span class="education_specialty">
+					Tertiary</span>
+				</div>
+			</div>
+
+			<div class="education_content">
+				<div>
+					<h3 class="education_year"> 2018-2020</h3>
+					<span class="education_university">
+					Year Graduated</span>
+				</div>
+				
+				<div class="education_time">
+					<span class="education_rounder"></span>
+					<span class="education_line"></span>
+				</div>
+				
+				<div>
+					<h3 class="education_race">Arellano University, Andres Bonifacio Campus</h3>
+					<span class="education_specialty">
+					Senior High School</span>
+				</div> 
+			</div>
+
+			<div class="education_content">
+				<div>
+					<h3 class="education_year"> 2014-2018</h3>
+					<span class="education_university">
+					Year Graduated</span>
+				</div>
+				
+				<div class="education_time">
+					<span class="education_rounder"></span>
+					<span class="education_line"></span>
+				</div>
+				
+				<div>
+					<h3 class="education_race">Taguig Integrated School</h3>
+					<span class="education_specialty">
+					Junior High School</span>
+				</div> 
+			</div>
+			
+			<div class="education_content">
+				<div>
+					<h3 class="education_year"> 2008-2013</h3>
+					<span class="education_university">
+					Year Graduated</span>
+				</div>
+				
+				<div class="education_time">
+					<span class="education_rounder"></span>
+					<span class="education_line"></span>
+				</div>
+				
+				<div>
+					<h3 class="education_race">Dona Juana Elementary School</h3>
+					<span class="education_specialty">
+					Elementary School</span>
+				</div> 
+		</div> 
+	</section>
+    
+     <!-- Skills Section -->
+	 <section class="skills" id="skills">
+        <div class="main-text">
+            <p>What Is My Programming Languages</p>
+            <h2><span>My</span> Skills</h2>
+        </div>
+        
+		<div class="skills_container">
+            <div class="skills_content">
+                <div class="skills_data">
+                    <span class="skills_name">PYTHON</span>
+                    <span class="skills_number">30%</span>
+                    <span class="skills_bar skills_c"></span>
+                </div>
+                
+                <div class="skills_data">
+                    <span class="skills_name">SAP ABAP</span>
+                    <span class="skills_number">70%</span>
+                    <span class="skills_bar skills_java"></span>
+                </div>
+                
+                <div class="skills_data">
+                    <span class="skills_name">HTML/CSS</span>
+                    <span class="skills_number">90%</span>
+                    <span class="skills_bar skills_python"></span>
+                </div>
+                
+                <div class="skills_data">
+                    <span class="skills_name">JAVA</span>
+                    <span class="skills_number">80%</span>
+                    <span class="skills_bar skills_html"></span>
+                </div>
+			</div>
+		</div>
+	</section>
+
+	 <!-- Services Section -->
+	 <section class="services" id="services">
+        <div class="main-text">
+            <p>What I am Expert In</p>
+            <h2><span>My</span> Services</h2>
+        </div>
+        
+		<div class="services-content">
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-mobile-alt' ></i>
+				</div>
+				<h3>Java GUI</h3>
+				<p>Specializing in Java GUI applications, I create graphical components like buttons, labels, and windows. These elements are key to building user-friendly interfaces for Java apps, enhancing user interaction.</p>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-window-alt'></i>
+				</div>
+				<h3>Web Development</h3>
+				<p>I excel in creating visually appealing and easy-to-navigate websites. Whether it's a simple single-page site or a complex web application, I ensure fast, high-performance, and seamless user experiences.</p>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-game'></i>
+				</div>
+				<h3>Pygame</h3>
+				<p>Experienced in Pygame, I use this set of Python modules for writing cross-platform video games. Pygame includes computer graphics and sound libraries for creating engaging gaming experiences.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <p>Portfolio</p>
+            <h2><span>Latest</span> Projects</h2>
+        </div>
+
+        <div class="portfolio-content">
+			<div class="row">
+				<img src="img/portfolio3.png">
+				<div class="layer">
+					<h5>STI ConnectUs</h5>
+					<p>The paging system allows for quick and efficient communication between students and faculty members.</p>
+					<a href="STI ConnectUs.pdf"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/portfolio2.jpg">
+				<div class="layer">
+					<h5>POS System for Milk Tea Shop</h5>
+					<p>Check out our group documentation to know more.</p>
+					<a href="POS SYSTEM.pdf"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/portfolio1.png">
+				<div class="layer">
+					<h5>Seeking Way</h5>
+					<p>The game entitled game; “Seeking Way” is a survival type of game that runs on 2d Graphics style.</p>
+					<a href="Seeking Way.pdf"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+	</section>
+
+	 <!-- Certificates Section -->
+    <section class="certificates" id="certificates">
+        <div class="main-text">
+            <p>Certificates</p>
+            <h2><span>My</span> Certificates</h2>
+        </div>
+		<br> </br>
+		<br> </br>
+
+        <div class="certificates-content">
+			<div class="row">
+				<img src="img/SAP ABAP Certificate.png">
+				<div class="layer">
+					<h5>SAP-ABAP Programming</h5>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/AWS Certificate.png">
+				<div class="layer">
+					<h5>Amazon Web Services</h5>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/IBM Certificate.png">
+				<div class="layer">
+					<h5>IBMSkillsNetwork</h5>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/Front End Development - CSS Certificate.png">
+				<div class="layer">
+					<h5>Front End Development</h5>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/UI and UX for Beginners Certificate.png">
+				<div class="layer">
+					<h5>UI and UX for Beginners</h5>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/Java Programming Certificate.png">
+				<div class="layer">
+					<h5>Java Programming</h5>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/Cloud Computing Foundations.png">
+				<div class="layer">
+					<h5>Cloud Computing Foundations</h5>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/Cloud Foundations - Advanced.png">
+				<div class="layer">
+					<h5>Cloud Foundations - Advanced</h5>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/Academic Excellence.jpg">
+				<div class="layer">
+					<h5>Academic Excellence</h5>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/2nd Best Thesis Awardee (ICT Strand).jpg">
+				<div class="layer">
+					<h5>2nd Best Thesis Awardee</h5>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/Best in Computer Programming 4 (SHS).jpg">
+				<div class="layer">
+					<h5>Best in Computer Programming 4</h5>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/Computer Literary Program.jpg">
+				<div class="layer">
+					<h5>Computer Literary Program</h5>
+				</div>
+			</div>
+	</section>
+
+	 <!-- Contact Section -->
+		<section class="contact" id="contact">
+			<div class="contact-text">
+				<h2>Contact <span>Me!</span></h2>
+				<h4>If you have any project in your mind.</h4>
+				<p>I offer professional web development services, specializing in crafting tailored solutions for clients' programming projects. With expertise in Java GUI, web development, and Pygame, I create dynamic and engaging applications. My goal is to deliver top-notch results that meet clients' needs and exceed their expectations.</p>
+				<ul class="list">
+					<li><a href="#">0909-194-6805</a></li>
+					<li><a id="gmail" href="mailto:tantaychristian30@gmail.com">tantaychristian30@gmail.com</a></li>
+					<li><a href="#">Connect with me on my social media accounts.</a></li>
+				</ul>
+				<div class="contact-icons">
+					<a href="https://www.facebook.com/christian.tantay"><i class='bx bxl-facebook' id="facebook"></i></a>
+					<a href="https://www.instagram.com/christian_tantay"><i class='bx bxl-instagram' id="instagram"></i></a>
+					<a href="https://twitter.com/christian_tantay"><i class='bx bxl-twitter' id="twitter"></i></a>
+					<a href="https://github.com/ChristianTantay"><i class='bx bxl-github' id="github"></i></a>
+					<a href="https://www.linkedin.com/in/christian-tantay/"><i class='bx bxl-linkedin' id="linkedin"></i></a>
+				</div>
+			</div>
+		
+			<div class="contact-form">
+				<form action="https://api.web3forms.com/submit" method="POST">
+					<input type="hidden" name="access_key" value="a12ab0aa-c512-4080-8feb-3cf47557b60b">
+					<input type="text" name="name" placeholder="Your Name" required>
+					<input type="email" name="email" placeholder="Your Email Address" required>
+					<input type="text" name="mobile" placeholder="Your Mobile Number" required>
+					<textarea name="message" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+					<input type="submit" value="Send Message" class="submit">
+				</form>
+			</div>
+		</section>
+	<!-- End Section -->
+
+    <section class="end">
+        <div class="last-text">
+            <p>Copyright © March 30, 2024 by Christian L. Tantay. All Rights Reserved.</p>
+        </div>
+
+        <div class="top">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </section>
+
+    <!-- Custom JS Link -->
+    <script src="js/script.js"></script>
+</body>
+<script>
+	let lastScrollTop = 0;
+
+window.addEventListener("scroll", function() {
+  let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (currentScroll < lastScrollTop) {
+    // Scroll up
+    document.querySelector("header").style.top = "0"; // Show header
+  }
+
+  lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+}, false);
+  </script>
+</html>
